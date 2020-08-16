@@ -1,0 +1,79 @@
+/* font-family: 'PT Sans', sans-serif; */
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #010101
+}
+/* Header Starts */
+header {
+  background-color:#fcdb00;
+  padding: 10px 0px;
+}
+.logo {}
+
+.menu ul li a {
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: capitalize;
+  color: #001100 !important;
+  padding: 0px 50px !important;
+  transition: .3s;
+}
+.menu ul li a:hover {
+  color: white !important;
+}
+.menu ul li:last-child a {
+  padding-right: 0px !important;
+}
+/* Header Ends */
+/* Slider Starts */
+.slider {
+  background-color: #fcdb00;
+  padding-bottom: 100px;
+}
+.cid {
+  bottom: -80px;
+}
+.cid li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  /* background-color: red; */
+}
+.cid .active {
+  /* background-color: green; */
+}
+.slider_content {
+  margin-top: 60px;
+}
+.slider_content h1 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0px;
+}
+.slider_content h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #313841;
+  margin: 20px 0px;
+}
+.slider_content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.slider_icon {}
+.slider_icon li i {
+  font-size: 40px;
+  margin-right: 20px;
+  transition: 0.4s;
+}
+.slider_icon li:hover i {
+  color : white;
+  transform: scaleX(-1);
+}
+.slider_img {}
+.slider_img img {}
+/* Slider Ends */
